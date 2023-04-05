@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct SwiftUIViewGame: View {
-    @State private var color = Color.black
     @State private var date = Date()
     @State private var slider = 0.75
     @State private var stepper = 0
