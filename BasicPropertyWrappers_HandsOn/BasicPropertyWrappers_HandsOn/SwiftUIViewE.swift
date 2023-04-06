@@ -28,6 +28,9 @@ struct SwiftUIViewE: View {
                 Stepper(value: $stepper, in: 0...100) {
                     Text("Value: \(stepper)")
                 }
+                
+                // pake ini aja.
+                
                 Text(text)
                 TextField("Placeholder", text: $textField)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -38,8 +41,6 @@ struct SwiftUIViewE: View {
             .navigationTitle("Controls")
             .navigationBarTitleDisplayMode(.inline)
         }
-        
-        
 
     }
 }
